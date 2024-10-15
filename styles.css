@@ -647,6 +647,7 @@ ul li i {
   color: var(--text-color-light);
   background-color: transparent; 
   text-align: left; 
+  color: #000;
 }
 
 .contact_form-input, .contact textarea {
