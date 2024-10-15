@@ -8,7 +8,7 @@
 }
 a{
   text-decoration: none ;
-  color:#fff;
+  color:#ffffff;
   transition:0.3s; 
 }
 ul{
@@ -21,7 +21,7 @@ body{
   font-family: 'Lexend', sans-serif;
   font-size:16px;
   line-height:24px; 
-  background-color:#202020;
+  background-color:#ffffff /*#202020;*/
 }
 .container{
   width: 1170px;
@@ -60,7 +60,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #89e1f5;
+  color: #50a6b9;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -91,10 +91,10 @@ body{
   display: block;
 }
 .header ul li a.active{
-  color: #89e1f5;
+  color: #50a6b9;
 } 
 .header ul li a:hover{
-  color:#89e1f5;
+  color:#50a6b9;
 }
 .header .menu_icon{
   color:#fff;
@@ -139,15 +139,15 @@ profile-photo .img{
   flex-direction: column;
 }
 .profile-text h5{
-  color: #e5e5e5;
+  color:#000000;
   font-size: 14px;
 }
 .profile-text h1{
-  color: #89e1f5;
+  color: #50a6b9;
   font-size: 3rem; 
 }
 .profile-text p{
-  color:#e5e5e5;
+  color:#000000;
 }
 .profile-text .social i{
   color : #e5e5e5;
@@ -155,10 +155,16 @@ profile-photo .img{
   margin-right: 10px;
   transition: 0.5s;
 }
+.profile-text .social i {
+  color:#50a6b9;
+  }
+
 .profile-text .social i:hover{
-  color:#89e1f5;
+  color:#000;
   transform: rotate(360deg);
 }
+
+
 
 
 
@@ -166,7 +172,7 @@ profile-photo .img{
 
 .about-area{
   padding-top: 130px;
-  background-color: #202020;
+  background-color: #ffffff /* #202020;*/
 }
 .about{
   display: flex;
@@ -178,13 +184,13 @@ profile-photo .img{
   flex-basis: 60%;
 }
 .about-content h4{
-  color: #89e1f5;
+  color: #50a6b9;
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
 }
 .about-content ul {
-  color:#fff;
+  color:#000;
   text-align: justify;
 }
 
@@ -197,10 +203,10 @@ profile-photo .img{
   flex-basis: 35%;
 }
 .about-skills ul li{
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed #50a6b9;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  color: #fff;
+  color:#000;
   font-size: 18px;
 }
 .about-skills ul li:last-child{
@@ -227,7 +233,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #89e1f5;
+  border-color: #50a6b9;
 }
 
 
@@ -241,12 +247,12 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #89e1f5;
+  color: #50a6b9;
 }
 .education-content .row .education,
 .education-content .row .internship
 {
-  color: #e5e5e5;
+  color: #000;
   flex:0 0 50%;
   max-width: 50%;
   margin-top: 30px;
@@ -262,7 +268,7 @@ profile-photo .img{
 }
 .education-content .row .timeline{
   padding: 30px 15px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #50a6b9;
   border-radius: 10px;
   width: 100%;
   position: relative;
@@ -287,7 +293,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #89e1f5;  
+  background-color: #50a6b9;  
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -296,7 +302,7 @@ profile-photo .img{
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #e5e5e5;
+  background-color: #50a6b9;
 }
 .education-content .row .timeline-title  {
   font-weight: 700;
@@ -345,15 +351,15 @@ profile-photo .img{
 .projects_title {
   font-size: var(--h3-font-size); 
   margin-bottom: 1.5rem; 
-  color: #89e1f5; 
+  color: #50a6b9; 
 }
 
 .projects_subtitles {
-  color: #fdfdfd;
+  color: #000;
 }
 
 .projects_button {
-  color: #abd6df;
+  color: #50a6b9;
   font-size: var(--small-font-size);
   display: flex; 
   column-gap: 0.25rem; 
@@ -389,7 +395,7 @@ profile-photo .img{
 
 /* Popup content */
 .popup-content {
-  background-color: #aecfed;
+  background-color: #50a6b9;
   margin: 20px; 
   padding: 20px;
   border-radius: 10px;
@@ -517,7 +523,7 @@ ul li i {
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #89e1f5;
+  color: #50a6b9;
   margin-bottom: 20px;
 }
 
@@ -551,7 +557,7 @@ ul li i {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: .25rem;
-  color: #89e1f5; 
+  color: #50a6b9; 
 }
 
 .certif_button {
@@ -615,7 +621,7 @@ ul li i {
 .contact-title h4 {
   font-size: 40px;
   text-transform: capitalize;
-  color: #89e1f5;
+  color: #50a6b9;
   margin-bottom: 10px;
 }
 
@@ -646,7 +652,7 @@ ul li i {
 .contact_form-input, .contact textarea {
   width: 100%;
   padding: 1.5rem;
-  border: 2px solid #89e1f5;
+  border: 2px solid #50a6b9;
   background: none;
   color: var(--text-color);
   outline: none;
@@ -656,7 +662,7 @@ ul li i {
 }
 
 .contact_form-input:focus, .contact textarea:focus {
-  border-color: #89e1f5;
+  border-color: #50a6b9;
 }
 .contact_form-area {
   height: 11rem;
@@ -668,7 +674,7 @@ ul li i {
 
 .button {
   display: inline-block;
-  background-color: #89e1f5;
+  background-color: #50a6b9;
   padding: 10px 40px;
   font-size: 18px;
   font-weight: bold;
@@ -695,16 +701,17 @@ ul li i {
     max-width: 950px;
     margin: 0 auto;
     padding: 15px 0 26px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1); 
-    color: rgba(255, 255, 255, 0.4);
+    border-top: 1px solid rgba(5, 5, 5, 0.1); 
+    color: rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
   }
   .footer .message {
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
   }
   
@@ -720,7 +727,13 @@ ul li i {
     border-radius: .25rem;
     font-size: 1rem;
     display: inline-flex;
+   
   }
+
+  .footer .social a i {
+    color: black; 
+}
+
 
  /*------------------- Responsive Design on small screen -------------------*/
 
