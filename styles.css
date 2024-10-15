@@ -645,7 +645,6 @@ ul li i {
   display: block; 
   margin-bottom: 0.5rem; 
   font-size: var(--smaller-font-size); 
-  color: var(--text-color-light);
   background-color: transparent; 
   text-align: left; 
 }
