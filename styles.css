@@ -562,7 +562,7 @@ ul li i {
 
 .certif_button {
   width: max-content;
-  color: #000;
+  color: black;
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;
