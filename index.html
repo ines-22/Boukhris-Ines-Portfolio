@@ -186,6 +186,12 @@
             <h5>My Projects</h5>
         </div>
         <div class="projects_container container grid">
+
+            <div class="projects_card">
+                <h3 class="projects_title">DevOps Project : CI/CD Pipeline</h3>
+                <h4 class="projects_subtitles">Project</h4>
+                <span class="projects_button" onclick="openPopup('project0')">See more <i class="bx bx-right-arrow-alt projects_icon"></i></span>
+            </div>
     
             <div class="projects_card">
                 <h3 class="projects_title">Development of a Mobile Application for Optimizing Electrical Energy Consumption in Buildings</h3>
@@ -236,6 +242,60 @@
     
 
 <!-- Popup for Project 1 -->
+
+<div id="project0" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('project0')">&times;</span>
+        <h3>DevOps Project : CI/CD Pipeline</h3>
+        
+        <h4>Description</h4>
+        <ul>
+            <li>
+                <i class="bx bx-check" style="color: white;"></i> 
+                Git Checkout: Fetches the latest code from the repository to ensure the pipeline always works with up-to-date code.
+            </li>
+            <li>
+                <i class="bx bx-check" style="color: white;"></i> 
+                Compile & Test: Uses Maven to compile the Java code and run unit tests, ensuring functionality and reliability.
+            </li>
+            <li>
+                <i class="bx bx-check" style="color: white;"></i> 
+                Security Scans:
+                File System Scan: Trivy scans for vulnerabilities in the codebase.
+                Static Analysis: SonarQube checks the code for bugs, vulnerabilities, and code smells.
+            </li>
+            <li>
+                <i class="bx bx-check" style="color: white;"></i> 
+                Build & Publish: Packages the application into a JAR file, stores it in Nexus for version management, and builds a Docker image for deployment.
+            </li>
+            <li>
+                <i class="bx bx-check" style="color: white;"></i>
+                Deployment: Automates application deployment to the target environment using Ansible.
+            </li>
+        </ul>
+
+        <h4>Keywords</h4>
+        <i class="bx bxs-badge-check"></i>
+        <span> DevOps </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> CI/CD </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Git </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Jenkins </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Sonarqube </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Nexus </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Docker </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Ansible </span> 
+        <i class="bx bxs-badge-check"></i>
+        <span> Terraform </span> 
+    </div>
+</div>
+    
 <div id="project1" class="popup">
     <div class="popup-content">
         <span class="close" onclick="closePopup('project1')">&times;</span>
